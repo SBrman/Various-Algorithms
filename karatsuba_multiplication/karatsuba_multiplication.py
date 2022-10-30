@@ -9,7 +9,7 @@ for f in os.listdir():
         break
 else:
     print("Compiling the shared cpp module...")
-    os.system("g++ karatsuba_mult_naive.cpp -shared -o karatsuba_mult.so -I'/usr/include/python3.8' -fPIC")
+    os.system("g++ karatsuba_mult_naive.cpp -shared -o karatsuba_mult.so -I'/usr/include/python3.11' -fPIC")
     print("Compilation complete")
     
 
